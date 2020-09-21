@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+button{
+    background: cornflowerblue;
+    color: white;
+    padding:1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0,.5);
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    /* transition: transform 1s linear; */
+}
+button:active{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0,1);
+    transform : translate(1px, 1px);
+}
